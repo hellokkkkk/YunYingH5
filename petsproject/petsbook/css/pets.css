@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+}
+body{
+	text-align: center;
+    margin: 0 auto;
+   
+}
+#container {
+	position: relative;
+	display: block;
+    height: 100%;
+    overflow: auto;
+}
+* {
+	outline: none;
+	-webkit-user-select: none;	
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {  
+    width: 100%; 
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.nav-list {
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+.nav-item {
+	width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nava{
+	width: 100%;
+	text-decoration: none;
+}
+.navimg{
+	width: 100%;
+	opacity:1;
+}
+.navimgd{
+	width: 100%;
+	opacity:1;
+	display: none;
+}
+.imgbox{
+	position: relative;
+	display: block;
+}
+.imgbox:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.cutdown{
+	position: absolute;
+	color: red;
+	font-weight: bold;
+	z-index: 999;
+	top: 49.5%;
+}
+#d1{
+	
+	right:26%;
+}
+#d2{
+	
+	right:24.5%;
+}
+#d3{
+	
+	right:34%;
+}
+#d4{
+	
+	right:25.3%;
+}
+#d5{
+	
+	right:34%;
+}
+.bgimg{
+	display: block;
+    width: 100%;
+    vertical-align: bottom;
+}
+.halfbgimg{
+	display: inline;
+    width: 50%;
+    float: left;
+    vertical-align: bottom;
+}
+.readbtn{
+	width: 20%;
+	position: absolute;
+	right: 33.3%;
+	top: 79.5%;
+}
+.buybtn{
+	width: 20%;
+	position: absolute;
+	right: 10.2%;
+	top: 79.5%;
+}
+.leftreadbtn{
+	width: 20%;
+	position: absolute;
+	left: 6%;
+	top: 81.5%;
+}
+.leftbuybtn{
+	width: 20%;
+	position: absolute;
+	left: 27.3%;
+	top: 81.5%;
+}
+.rightreadbtn{
+	width: 20%;
+	position: absolute;
+	right: 27%;
+	top: 81.5%;
+}
+.rightbuybtn{
+	width: 20%;
+	position: absolute;
+	right: 5.8%;
+	top: 81.5%;
+}
+#read4,#buy4{
+	top: 78.5%;
+}
+#read7,#buy7{
+	top: 78.8%;
+}
+#read11,#buy11{
+	top: 79.2%;
+}
+#read15,#buy15{
+	top: 79%;
+}
+#read16,#buy16,#read17,#buy17{
+	top: 81%;
+}
+#a1,#a2,#a3,#a4,#a5 {
+   display: block;
+   position: relative;
+   margin: 0 auto;
+   visibility: hidden;
+}
