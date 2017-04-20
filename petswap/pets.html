@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="ROBOTS" content="none">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+	<title>拯救PETS</title>
+	<link rel="stylesheet" type="text/css" href="petsbook/css/pets.css">
+	<script type="text/javascript" src='petsbook/js/jquery-3.0.0.min.js'></script>	
+</head>
+<body>
+	<div id="nav">
+        <ul class="nav-list">
+            <li id="nav1" class="nav-item">
+	            <a href="#a1" class="nava" onclick="change(1)">
+		            <img class="navimg" id="li1_1" src="petsbook/images/li1_1.png">
+		            <img class="navimgd" id="li1_2" src="petsbook/images/li1_2.png">
+	            </a>
+            </li>
+            <li id="nav2" class="nav-item">
+	            <a href="#a2" class="nava" onclick="change(2)">
+		            <img class="navimg" id="li2_1" src="petsbook/images/li2_1.png">
+		            <img class="navimgd" id="li2_2" src="petsbook/images/li2_2.png">
+	            </a>
+            </li>
+            <li id="nav3" class="nav-item">
+	            <a href="#a3" class="nava" onclick="change(3)">
+		            <img class="navimg" id="li3_1" src="petsbook/images/li3_1.png">
+		            <img class="navimgd" id="li3_2" src="petsbook/images/li3_2.png">
+	            </a>
+            </li>
+            <li id="nav4" class="nav-item">
+	            <a href="#a4" class="nava" onclick="change(4)">
+		            <img class="navimg" id="li4_1" src="petsbook/images/li4_1.png">
+		            <img class="navimgd" id="li4_2" src="petsbook/images/li4_2.png">
+	            </a>
+            </li>
+            <li id="nav5" class="nav-item">
+	            <a href="#a5" class="nava" onclick="change(5)">
+		            <img class="navimg" id="li5_1" src="petsbook/images/li5_1.png">
+		            <img class="navimgd" id="li5_2" src="petsbook/images/li5_2.png">
+	            </a>
+            </li> 
+        </ul>
+    </div>
+    <div id="container" class="imgbox">
+    	<div id="head" >
+	    	<img class="bgimg" src="petsbook/images/first.png">
+	    	<img class="bgimg" src="petsbook/images/second.png">
+    	</div>
+    	<a name="a1" id="a1"></a>
+    	<div id="pest5">   		
+    		<div id="ban1" class="imgbox">
+    			<img class="bgimg" src="petsbook/images/ban1.png">
+    			<span id="d1" class="cutdown">0</span>
+    		</div>
+    		<div class="imgbox">
+    			<img class="bgimg" src="petsbook/images/bg1.png" onclick="readbook(1463)">
+    			<img id="read1" class="readbtn" src="petsbook/images/readbtn.png" onclick="readbook(1463)">
+    			<img id="buy1" class="buybtn" src="petsbook/images/buybtn.png" onclick="buybook(138)">
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="petsbook/images/bg2.png" onclick="readbook(18370)">
+    			<img id="read2" class="leftreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18370)">
+    			<img id="buy2" class="leftbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(156)">
+    			<img class="halfbgimg" src="petsbook/images/bg3.png" onclick="readbook(18410)">
+    			<img id="read3" class="rightreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18410)">
+    			<img id="buy3" class="rightbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(162)">
+    		</div>
+    	</div>
+    	<a name="a2" id="a2"></a>
+    	<div id="pest4">   		
+    		<div id="ban2" class="imgbox">
+    			<img class="bgimg" src="petsbook/images/ban2.png">
+    			<span id="d2" class="cutdown">0</span>
+    		</div>
+    		<div class="imgbox">
+    			<img class="bgimg" src="petsbook/images/bg4.png" onclick="readbook(1265)">
+    			<img id="read4" class="readbtn" src="petsbook/images/readbtn.png" onclick="readbook(1265)">
+    			<img id="buy4" class="buybtn" src="petsbook/images/buybtn.png" onclick="buybook(137)">
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="petsbook/images/bg5.png" onclick="readbook(18290)">
+    			<img id="read5" class="leftreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18290)">
+    			<img id="buy5" class="leftbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(149)">
+    			<img class="halfbgimg" src="petsbook/images/bg6.png" onclick="readbook(18380)">
+    			<img id="read6" class="rightreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18380)">
+    			<img id="buy6" class="rightbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(157)">
+    		</div>
+    	</div>
+    	<a name="a3" id="a3"></a>
+    	<div id="pest3">    		
+    		<div id="ban3" class="imgbox">
+    			<img class="bgimg" src="petsbook/images/ban3.png">
+    			<span id="d3" class="cutdown">0</span>
+    		</div>
+    			<div class="imgbox"><img class="bgimg" src="petsbook/images/bg7.png" onclick="readbook(1442)">
+    			<img id="read7" class="readbtn" src="petsbook/images/readbtn.png" onclick="readbook(1442)">
+    			<img id="buy7" class="buybtn" src="petsbook/images/buybtn.png" onclick="buybook(133)">
+    		</div>
+    		<div class="imgbox">
+    			<img id="watch8" class="bgimg" src="petsbook/images/bg8.png" onclick="watchlesson('2e8d40',18350)">	
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="petsbook/images/bg9.png" onclick="readbook(18369)">
+    			<img id="read9" class="leftreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18369)">
+    			<img id="buy9" class="leftbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(155)">
+    			<img class="halfbgimg" src="petsbook/images/bg10.png" onclick="readbook(18378)">
+    			<img id="read10" class="rightreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18378)">
+    			<img id="buy10" class="rightbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(158)">
+    		</div>
+    	</div>
+    	<a name="a4" id="a4"></a>
+    	<div id="pest2">	
+    		<div id="ban4" class="imgbox">
+    			<img class="bgimg" src="petsbook/images/ban4.png">
+    			<span id="d4" class="cutdown">0</span>
+    		</div>
+    		<div class="imgbox">
+    			<img class="bgimg" src="petsbook/images/bg11.png" onclick="readbook(1452)">
+    			<img id="read11" class="readbtn" src="petsbook/images/readbtn.png" onclick="readbook(1452)">
+    			<img id="buy11" class="buybtn" src="petsbook/images/buybtn.png" onclick="buybook(132)">
+    		</div>
+    		<div class="imgbox">
+    			<img id="watch12" class="bgimg" src="petsbook/images/bg12.png" onclick="watchlesson('defb0c',18349)">
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="petsbook/images/bg13.png" onclick="readbook(18092)">
+    			<img id="read13" class="leftreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18092)">
+    			<img id="buy13" class="leftbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(141)">
+    			<img class="halfbgimg" src="petsbook/images/bg14.png" onclick="readbook(18455)">
+    			<img id="read14" class="rightreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18455)">
+    			<img id="buy14" class="rightbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(164)">
+    		</div>
+    	</div>
+    	<a name="a5" id="a5"></a>
+    	<div id="pest1">
+    		<div id="ban5" class="imgbox">
+    			<img class="bgimg" src="petsbook/images/ban5.png">
+    			<span id="d5" class="cutdown">0</span>
+    		</div>
+    		<div class="imgbox">
+    			<img class="bgimg" src="petsbook/images/bg15.png" onclick="readbook(1464)">
+    			<img id="read15" class="readbtn" src="petsbook/images/readbtn.png" onclick="readbook(1464)">
+    			<img id="buy15" class="buybtn" src="petsbook/images/buybtn.png" onclick="buybook(136)">
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="petsbook/images/bg16.png" onclick="readbook(18093)">
+    			<img id="read16" class="leftreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18093)">
+    			<img id="buy16" class="leftbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(140)">
+    			<img class="halfbgimg" src="petsbook/images/bg17.png" onclick="readbook(18454)">
+    			<img id="read17" class="rightreadbtn" src="petsbook/images/readbtn.png" onclick="readbook(18454)">
+    			<img id="buy17" class="rightbuybtn" src="petsbook/images/buybtn.png" onclick="buybook(163)">
+    		</div>
+    	</div>
+    	
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			//设置倒计时字体大小
+			var w=$(window).width();
+			var f=w*0.05;
+			for(var i=1;i<6;i++){
+            $("#d"+i).css({"font-size":f});
+            };
+		});
+	</script>
+	<script type="text/javascript" src='petsbook/js/pets.js'></script>
+</body>
+</html>
