@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="ROBOTS" content="none">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+	<title>大学生备考专题</title>
+	<link rel="stylesheet" type="text/css" href="css/examtopic/examtopic.css">
+	<script type="text/javascript" src='js/jquery-3.0.0.min.js'></script>	
+</head>
+<body>
+	<div id="nav">
+        <ul class="nav-list">
+            <li id="nav1" class="nav-item" onclick="point('a1')">
+	            
+		            <img class="navimg" id="li1_1" src="images/topicimages/li1_1.png">
+		            <img class="navimgd" id="li1_2" src="images/topicimages/li1_2.png">
+	            
+            </li>
+            <li id="nav2" class="nav-item" onclick="point('a2')">
+	            
+		            <img class="navimg" id="li2_1" src="images/topicimages/li2_1.png">
+		            <img class="navimgd" id="li2_2" src="images/topicimages/li2_2.png">
+	            
+            </li>
+            <li id="nav3" class="nav-item" onclick="point('a3')">
+	            
+		            <img class="navimg" id="li3_1" src="images/topicimages/li3_1.png">
+		            <img class="navimgd" id="li3_2" src="images/topicimages/li3_2.png">
+	            
+            </li>
+            <li id="nav4" class="nav-item" onclick="point('a4')">
+	           
+		            <img class="navimg" id="li4_1" src="images/topicimages/li4_1.png">
+		            <img class="navimgd" id="li4_2" src="images/topicimages/li4_2.png">
+	            
+            </li>
+            <li id="nav5" class="nav-item" onclick="point('a5')">
+	            
+		            <img class="navimg" id="li5_1" src="images/topicimages/li5_1.png">
+		            <img class="navimgd" id="li5_2" src="images/topicimages/li5_2.png">
+	            
+            </li> 
+        </ul>
+    </div>
+    <div id="container" class="imgbox">
+    	<div id="head" >
+	    	<img class="bgimg" src="images/topicimages/first.png">
+	    	<img class="bgimg" src="images/topicimages/second.png">
+    	</div>
+    	<div id="btnbox"><img id="floatbtn" src="images/topicimages/floatbtn.png"></div>
+    	<div id="zhibo">
+            <a name="a1" id="a1"></a>   		
+    		<div class="imgbox">
+    			<img id="zhibo1" class="bgimg" src="images/topicimages/zhibo1.png">
+    			<img id="zhibo2" class="bgimg" src="images/topicimages/zhibo2.png">
+    		</div>
+    	</div>
+        
+    	<div id="lesson">
+            <a name="a2" id="a2"></a>   		
+    		<div id="ban2" class="imgbox">
+    			<img class="bgimg" src="images/topicimages/ban2.png">	
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="images/topicimages/lesson1_1.png" onclick="watchlesson(30)">
+    			<img class="halfbgimg" src="images/topicimages/lesson1_2.png" onclick="watchlesson(31)" >
+                <span id="ln1" class="LearnNum">3837人已学</span>
+                <span id="ln2" class="LearnNum">4533人已学</span>
+    		</div>
+    	</div>
+    	
+    	<div id="cet4click">
+            <a name="a3" id="a3"></a>    		
+    		<div id="ban3_1" class="imgbox" onclick="more()">
+    			<img class="bgimg" src="images/topicimages/ban3_1.png">	
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="images/topicimages/book3_1_1.png" onclick="readbook(17274)">
+    			<img class="halfbgimg" src="images/topicimages/book3_1_2.png" onclick="readbook(19655)">
+                <img class="halfbgimg" src="images/topicimages/buy3_1_1.png" onclick="buybook(92)">
+                <img class="halfbgimg" src="images/topicimages/buy3_1_2.png" onclick="buybook(266)">	
+    		</div>
+            <div id="ban3_2" class="imgbox" onclick="more()">
+                <img class="bgimg" src="images/topicimages/ban3_2.png"> 
+            </div>
+            <div class="imgbox">
+                <img class="halfbgimg" src="images/topicimages/book3_2_1.png" onclick="readbook(14483)">
+                <img class="halfbgimg" src="images/topicimages/book3_2_2.png" onclick="readbook(18640)">
+                <img class="halfbgimg" src="images/topicimages/buy3_2_1.png" onclick="buybook(43)">
+                <img class="halfbgimg" src="images/topicimages/buy3_2_2.png" onclick="buybook(182)">   
+            </div>
+    	</div>
+    	<div id="cet6click">
+            <a name="a4" id="a4"></a>	
+    		<div id="ban4_1" class="imgbox" onclick="more()">
+                <img class="bgimg" src="images/topicimages/ban4_1.png"> 
+            </div>
+            <div class="imgbox">
+                <img class="halfbgimg" src="images/topicimages/book4_1_1.png" onclick="readbook(18156)">
+                <img class="halfbgimg" src="images/topicimages/book4_1_2.png" onclick="readbook(19656)">
+                <img class="halfbgimg" src="images/topicimages/buy4_1_1.png" onclick="buybook(146)">
+                <img class="halfbgimg" src="images/topicimages/buy4_1_2.png" onclick="buybook(267)">   
+            </div>
+            <div id="ban4_2" class="imgbox" onclick="more()">
+                <img class="bgimg" src="images/topicimages/ban4_2.png"> 
+            </div>
+            <div class="imgbox">
+                <img class="halfbgimg" src="images/topicimages/book4_2_1.png" onclick="readbook(14482)">
+                <img class="halfbgimg" src="images/topicimages/book4_2_2.png" onclick="readbook(18641)">
+                <img class="halfbgimg" src="images/topicimages/buy4_2_1.png" onclick="buybook(42)">
+                <img class="halfbgimg" src="images/topicimages/buy4_2_2.png" onclick="buybook(183)">   
+            </div>
+    	</div>
+
+    	<div id="computerlesson">
+            <a name="a5" id="a5"></a>
+    		<div id="ban5" class="imgbox">
+    			<img class="bgimg" src="images/topicimages/ban5.png">	
+    		</div>
+    		<div class="imgbox">
+    			<img class="bgimg" src="images/topicimages/lesson5_1.png" onclick="watchlesson(5)">
+                <span id="ln3" class="LearnNum">5333人已学</span>
+    		</div>
+    		<div class="imgbox">
+    			<img class="halfbgimg" src="images/topicimages/lesson5_2.png" onclick="watchlesson(38)">
+                <img class="halfbgimg" src="images/topicimages/lesson5_3.png" onclick="watchlesson(39)">
+                <img class="halfbgimg" src="images/topicimages/lesson5_4.png" onclick="watchlesson(37)">
+                <img class="halfbgimg" src="images/topicimages/lesson5_5.png" onclick="watchlesson(40)">
+                <span id="ln4" class="LearnNum">3289人已学</span>
+                <span id="ln5" class="LearnNum">7171人已学</span>
+                <span id="ln6" class="LearnNum">4422人已学</span>
+                <span id="ln7" class="LearnNum">2115人已学</span>
+    		</div>
+    	</div>
+
+    	<div id="foot" class="imgbox">
+            <img class="bgimg" src="images/topicimages/like.png">   
+        </div>
+    </div>
+	<script type="text/javascript" src='js/examtopic.js'></script>
+</body>
+</html>
